@@ -8,8 +8,8 @@ group = "com.example"
 version = "1.0-SNAPSHOT"
 
 kotlin {
-
-    ios()
+    // If the ios is enabled nothing I get unresolved reference androidx (for the .compose)
+    // ios()
 
     jvm("desktop") {
         compilations.all {
